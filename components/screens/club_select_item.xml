@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<component name = "ClubSelectItem" extends = "Group" >
+  <script type="text/brightscript" uri="pkg:/components/screens/club_select_item.brs" />
+  <interface> 
+    <field id = "itemContent" type = "node" onChange = "showcontent"/>
+    <field id = "focusPercent" type = "float" onChange = "showfocus"/> 
+    <field id = "rowFocusPercent" type = "float" onChange = "showrowfocus"/>
+  </interface>
+  <children >
+    <Poster 
+      id = "itemPoster" 
+      translation = "[ 10, 10 ]" 
+      width = "1980" 
+      height = "1080" 
+      scaleRotateCenter = "[ 256.0, 144.0 ]" >
+    </Poster>
+    <Label 
+      id = "itemLabel" 
+      font="font:LargeBoldSystemFont"
+      translation = "[ 750, 10 ]" 
+      horizAlign = "center"
+      vertAlign = "center" 
+      width = "492" />
+  </children>
+</component>

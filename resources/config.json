@@ -1,0 +1,29 @@
+{
+  "host": "https://sthsroku.net/clubhub/Content",
+  "categories": [
+    {
+      "title": "Badminton",
+      "feed_url": "/jsons/arrays/badminton.json"
+    },
+    {
+      "title": "Basketball",
+      "feed_url": "/jsons/arrays/basketball.json"
+    },
+    {
+      "title": "Soccer",
+      "feed_url": "/jsons/arrays/soccer.json"
+    },
+    {
+      "title": "Track and Field",
+      "feed_url": "/jsons/arrays/trackandfield.json"
+    },
+    {
+      "title": "Volleyball",
+      "feed_url": "/jsons/arrays/volleyball.json"
+    },
+    {
+      "title": "Water Polo",
+      "feed_url": "/jsons/arrays/waterpolo.json"
+    }
+  ]
+}

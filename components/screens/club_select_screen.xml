@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8" ?> 
+<component name = "club_select_screen" extends = "Group" initialFocus = "club_list" >
+  <script type="text/brightscript" uri="pkg:/components/screens/club_select_screen.brs" />
+  <interface>
+    <field id="club_selected" type="assocarray" alias="club_list.itemSelected" />
+  </interface>
+  <children >
+    <RowList 
+      id = "club_list" 
+      translation = "[ 0, -10 ]" 
+      itemComponentName = "ClubSelectItem" 
+      numRows = "1" 
+      itemSize = "[ 1920, 1080 ]" 
+      rowItemSize = "[ [1920, 1080] ]" 
+      itemSpacing = "[ 0, 0 ]" 
+      showRowLabel = "[ true ]" 
+      drawFocusFeedback = "true" 
+      vertFocusAnimationStyle = "fixedFocusWrap" 
+      rowFocusAnimationStyle = "fixedFocusWrap" />
+  </children>
+</component>
