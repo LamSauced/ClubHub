@@ -50,6 +50,7 @@ end sub
 sub onClubSelected(obj)
 	m.content_screen.visible=true
 	m.club_select_screen.visible=false
+	m.content_screen.setFocus(true)
 end sub
 
 sub onCategorySelected(obj)
@@ -150,8 +151,8 @@ function onKeyEvent(key, press) as Boolean
 	? "[home_scene] onKeyEvent", key, press
 	' we must capture the 'true' for press, it comes first (true=down,false=up) to keep the firmware from handling the event
 	if key = "back" and press
-		if m.category_screen.visible
-			m.category_screen.visible=false
+		if m.content_screen.visible
+			m.content_screen.visible=false
 			m.club_select_screen.visible=true
 			return true
 		else if m.content_screen.visible

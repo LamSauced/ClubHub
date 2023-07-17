@@ -2,16 +2,16 @@
 <component name = "club_select_screen" extends = "Group" initialFocus = "club_list" >
   <script type="text/brightscript" uri="pkg:/components/screens/club_select_screen.brs" />
   <interface>
-    <field id="club_selected" type="assocarray" alias="club_list.itemSelected" />
+    <field id="club_selected" type="assocarray" alias="club_row.itemSelected" />
   </interface>
   <children >
     <RowList 
-      id = "club_list" 
+      id = "club_row" 
       translation = "[ 0, -10 ]" 
       itemComponentName = "ClubSelectItem" 
       numRows = "1" 
-      itemSize = "[ 1920, 1080 ]" 
-      rowItemSize = "[ [1920, 1080] ]" 
+      itemSize = "[ 1440, 810 ]" 
+      rowItemSize = "[ [1440, 810] ]" 
       itemSpacing = "[ 0, 0 ]" 
       showRowLabel = "[ true ]" 
       drawFocusFeedback = "true" 

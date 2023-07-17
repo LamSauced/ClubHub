@@ -10,8 +10,8 @@
     <Poster 
       id = "itemPoster" 
       translation = "[ 10, 10 ]" 
-      width = "1980" 
-      height = "1080" 
+      width = "1440" 
+      height = "810" 
       scaleRotateCenter = "[ 256.0, 144.0 ]" >
     </Poster>
     <Label 
