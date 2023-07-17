@@ -171,6 +171,7 @@ function onKeyEvent(key, press) as Boolean
             m.splash_screen.visible = false
             m.club_select_screen.visible = true
             m.club_select_screen.setFocus(true)
+			m.videoplayer.control = "stop"
             return true
         end if
 	end if
