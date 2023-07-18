@@ -2,10 +2,7 @@
 <component name = "video_select_screen" extends = "Group" initialFocus = "video_list" >
   <script type="text/brightscript" uri="pkg:/components/screens/video_select_screen.brs" />
   <interface>
-    <field id="video_selected" type="assocarray" alias="video_row.itemSelected" onChange="onItemSelect" />
-    <field id="video_selected_uri" type="intarray" />
-    <field id= "url_list" type = "nodearray" />
-    <field id = "row_url" type = "uri" />
+    <field id="video_selected" type="assocarray" alias="video_row.rowItemSelected" onChange="onItemSelect" />
   </interface>
   <children >
     <RowList 
