@@ -3,6 +3,7 @@
   <script type="text/brightscript" uri="pkg:/components/screens/video_select_screen.brs" />
   <interface>
     <field id="video_selected" type="assocarray" alias="video_row.itemSelected" onChange="onItemSelect" />
+    <field id="video_content" type="node" />
   </interface>
   <children >
     <RowList 

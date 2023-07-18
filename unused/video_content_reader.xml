@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<!--********** Copyright 2016 Roku Corp.  All Rights Reserved. **********-->
+
+<component name = "VideoContentReader" extends = "Task" >
+ 
+  <interface>
+    <field id = "videocontenturi" type = "uri" value = "" />
+    <field id = "videocontent" type = "node" />
+  </interface> 
+
+  <script type="text/brightscript" uri="pkg:/components/tasks/video_content_reader.brs" />
+
+</component>
