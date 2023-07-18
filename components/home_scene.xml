@@ -10,16 +10,8 @@
       id="club_select_screen"
       visible="false"
       translation="[0,0]" />
-    <category_screen
-      id="category_screen"
-      visible="false"
-      translation="[0,0]" />
-    <content_screen
-      id="content_screen"
-      visible="false"
-      translation="[0,0]" />
-    <details_screen
-      id="details_screen"
+    <video_select_screen
+      id="video_select_screen"
       visible="false"
       translation="[0,0]" />
     <Video

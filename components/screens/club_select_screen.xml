@@ -7,11 +7,11 @@
   <children >
     <RowList 
       id = "club_row" 
-      translation = "[ 0, -10 ]" 
+      translation = "[ -10, -50 ]" 
       itemComponentName = "ClubSelectItem" 
       numRows = "1" 
-      itemSize = "[ 1440, 810 ]" 
-      rowItemSize = "[ [1440, 810] ]" 
+      itemSize = "[ 2000, 1125 ]" 
+      rowItemSize = "[ [2000, 1125] ]" 
       itemSpacing = "[ 0, 0 ]" 
       showRowLabel = "[ true ]" 
       drawFocusFeedback = "true" 

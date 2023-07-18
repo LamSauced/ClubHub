@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?> 
+<component name = "video_select_screen" extends = "Group" initialFocus = "video_list" >
+  <script type="text/brightscript" uri="pkg:/components/screens/video_select_screen.brs" />
+  <interface>
+    <field id="video_selected" type="assocarray" alias="video_row.itemSelected" onChange="onItemSelect" />
+  </interface>
+  <children >
+    <RowList 
+      id = "video_row" 
+      translation = "[ 130, 80 ]" 
+      itemComponentName = "videoSelectItem" 
+      numRows = "5" 
+      itemSize = "[ 1608, 308 ]" 
+      rowItemSize = "[ [536, 308] ]" 
+      itemSpacing = "[ 0, 80 ]" 
+      showRowLabel = "[ true ]" 
+      drawFocusFeedback = "true" 
+      vertFocusAnimationStyle = "fixedFocusWrap" 
+      rowFocusAnimationStyle = "fixedFocusWrap" />
+   <Video
+        id="selected_video"
+        visible="false"
+        translation="[0,0]"
+        width="1920"
+        height="1080"
+        enableUI = "false"
+  />
+  </children>
+  
+</component>

@@ -13,13 +13,5 @@
         height="1080"
         enableUI = "false"
   />
-  <!--
-  this shit is deprecated !!!!!!!
-   <Timer
-      id="splash_timer"
-      duration="6"
-      repeat="false"
-  />
-  -->
   </children>
 </component>

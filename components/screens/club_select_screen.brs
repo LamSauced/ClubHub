@@ -1,6 +1,6 @@
 sub init()
-  m.club_list = m.top.findNode("club_row")
-  m.club_list.content = CreateObject("roSGNode", "ClubSelectContent")
+  m.club_row = m.top.findNode("club_row")
+  m.club_row.content = CreateObject("roSGNode", "ClubSelectContent")
   m.top.observefield("visible", "onVisibleChange")
 end sub
 

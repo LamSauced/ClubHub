@@ -10,9 +10,9 @@ mm_icon_focus_hd=pkg:/images/logo.png
 mm_icon_focus_sd=pkg:/images/logo.png
 
 # Splash Screen + Loading Screen Artwork
-splash_screen_sd=pkg:/images/splash.png
-splash_screen_hd=pkg:/images/splash.png
-splash_screen_fhd=pkg:/images/splash.png
+splash_screen_sd=pkg:/images/logofull.png
+splash_screen_hd=pkg:/images/logofull.png
+splash_screen_fhd=pkg:/images/logofull.png
 splash_max_time=1
 splash_rsg_optimization=1
 

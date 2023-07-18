@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "utf-8" ?>
-<component name = "ClubSelectItem" extends = "Group" >
-  <script type="text/brightscript" uri="pkg:/components/screens/club_select_item.brs" />
+<component name = "VideoSelectItem" extends = "Group" >
+  <script type="text/brightscript" uri="pkg:/components/screens/video_select_item.brs" />
   <interface> 
     <field id = "itemContent" type = "node" onChange = "showcontent"/>
     <field id = "focusPercent" type = "float" onChange = "showfocus"/> 
@@ -10,16 +10,14 @@
     <Poster 
       id = "itemPoster" 
       translation = "[ 10, 10 ]" 
-      width = "2000" 
-      height = "1125" 
+      width = "512" 
+      height = "288" 
       scaleRotateCenter = "[ 256.0, 144.0 ]" >
     </Poster>
     <Label 
       id = "itemLabel" 
-      font="font:LargeBoldSystemFont"
-      translation = "[ 750, 20 ]" 
-      horizAlign = "center"
-      vertAlign = "center" 
+      translation = "[ 20, 264 ]" 
+      horizAlign = "center" 
       width = "492" />
   </children>
 </component>
