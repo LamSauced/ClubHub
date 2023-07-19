@@ -6,19 +6,19 @@
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/backgrounds/badmintonmain.jpg" 
         title = "Badminton" />
       <ContentNode 
-        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/backgrounds/basketballmain.png" 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/backgrounds/basketballmain.jpg" 
         title = "Basketball" />
       <ContentNode 
-        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/backgrounds/soccermain.png" 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/backgrounds/soccermain.jpg" 
         title = "Soccer" />
       <ContentNode 
-        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/trackandfield/backgrounds/trackmain.png" 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/trackandfield/backgrounds/trackmain.jpg" 
         title = "Track and Field" />
       <ContentNode 
-        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/volleyball/backgrounds/volleyballmain.png" 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/volleyball/backgrounds/volleyballmain.jpg" 
         title = "Volleyball" />
       <ContentNode 
-        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/waterpolo/backgrounds/waterpolomain.png" 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/waterpolo/backgrounds/waterpolomain.jpg" 
         title = "Water Polo" />
     </ContentNode>
   </children>

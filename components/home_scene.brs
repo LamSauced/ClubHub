@@ -11,7 +11,7 @@ function init()
 	m.club_select_screen.observeField("club_selected", "onClubSelected") 
 	'm.video_select_screen.observeField("video_selected", "onVideoSelected") 
 	m.splash_screen.setFocus(true)
-	loadConfig()
+	'loadConfig()
 end function
 
 sub initializeVideoPlayer()
@@ -24,16 +24,16 @@ sub initializeVideoPlayer()
 	m.videoplayer.observeFieldScoped("state", "onPlayerStateChanged")
 end sub
 
-sub loadConfig()
-    m.config_task = createObject("roSGNode", "load_config_task")
-    m.config_task.observeField("error", "onConfigError")
-    m.config_task.filepath = "resources/config.json"
-    m.config_task.control="RUN"
-end sub
+'sub loadConfig()
+'    m.config_task = createObject("roSGNode", "load_config_task")
+'    m.config_task.observeField("error", "onConfigError")
+'    m.config_task.filepath = "resources/config.json"
+'    m.config_task.control="RUN"
+'end sub
 
-sub onConfigError(obj)
-	showErrorDialog(obj.getData())
-end sub
+'sub onConfigError(obj)
+'	showErrorDialog(obj.getData())
+'end sub
 
 'sub onVideoSelected(obj)
 '	selected_index = obj.getData()
@@ -60,17 +60,17 @@ sub onSplashFinished(obj)
 	end if
 end sub
 
-sub loadFeed(url)
-	m.feed_task = createObject("roSGNode", "load_feed_task")
-	m.feed_task.observeField("response", "onFeedResponse")
-	m.feed_task.observeField("error", "onFeedError")
-	m.feed_task.url = url
-	m.feed_task.control = "RUN"
-end sub
+'sub loadFeed(url)
+'	m.feed_task = createObject("roSGNode", "load_feed_task")
+'	m.feed_task.observeField("response", "onFeedResponse")
+'	m.feed_task.observeField("error", "onFeedError")
+'	m.feed_task.url = url
+'	m.feed_task.control = "RUN"
+'end sub
 
-sub onFeedError(obj)
-	showErrorDialog(obj.getData())
-end sub
+'sub onFeedError(obj)
+'	showErrorDialog(obj.getData())
+'end sub
 
 sub onPlayerStateChanged(obj)
     state = obj.getData()
