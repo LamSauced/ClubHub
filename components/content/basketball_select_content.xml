@@ -2,61 +2,61 @@
 <component name = "BasketballSelectContent" extends = "ContentNode" >
   <children >
     <ContentNode title = "Defense" >
-      <ContentNode
+      <video_append_node
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/defense/defense1.jpg" 
         title = "Defense Tips" 
         url = "https://sthsroku.net/clubhub/Content/videos/basketball/defense/defense1.mp4" />
-      <ContentNode 
+      <video_append_node 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/defense/defense2.jpg" 
         title = "Box and 1 Defense" 
         url = "https://sthsroku.net/clubhub/Content/videos/basketball/defense/defense2.mp4" />
-      <ContentNode 
+      <video_append_node 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/defense/defense3.jpg" 
         title = "Help Side" 
         url = "https://sthsroku.net/clubhub/Content/videos/basketball/defense/defense3.mp4" />
-      <ContentNode 
+      <video_append_node 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/defense/defense4.jpg" 
         title = "Zone Defense" 
         url = "https://sthsroku.net/clubhub/Content/videos/basketball/defense/defense4.mp4" />
     </ContentNode>
     <ContentNode title = "Dribbling" > 
-      <ContentNode 
+      <video_append_node 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/dribbling/dribbling1.jpg" 
         title = "Dribbling Workout" 
         url = "https://sthsroku.net/clubhub/Content/videos/basketball/dribbling/dribbling1.mp4" />
-      <ContentNode 
+      <video_append_node 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/dribbling/dribbling2.jpg" 
         title = "Fundamentals of Dribbling" 
         url = "https://sthsroku.net/clubhub/Content/videos/basketball/dribbling/dribbling2.mp4" />
-      <ContentNode 
+      <video_append_node 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/dribbling/dribbling3.jpg" 
         title = "Dribbling Combos" 
         url = "https://sthsroku.net/clubhub/Content/videos/basketball/dribbling/dribbling3.mp4" />
-      <ContentNode 
+      <video_append_node 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/dribbling/dribbling4.jpg" 
         title = "Ankle Breakers" 
         url = "https://sthsroku.net/clubhub/Content/videos/basketball/dribbling/dribbling4.mp4" />
     </ContentNode>
     <ContentNode title = "Shooting" >
-      <ContentNode 
+      <video_append_node 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/shooting/shooting1.jpg" 
         title = "Basics of Shooting" 
         url = "https://sthsroku.net/clubhub/Content/videos/basketball/shooting/shooting1.mp4" />
-      <ContentNode 
+      <video_append_node 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/shooting/shooting2.jpg" 
         title = "Why Shooting is Difficult" 
         url = "https://sthsroku.net/clubhub/Content/videos/basketball/shooting/shooting2.mp4" />
-      <ContentNode 
+      <video_append_node 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/shooting/shooting3.jpg" 
         title = "Fundamentals of Shooting" 
         url = "https://sthsroku.net/clubhub/Content/videos/basketball/shooting/shooting3.mp4" />
-      <ContentNode 
+      <video_append_node 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/shooting/shooting4.jpg" 
         title = "NBA Jumpshots" 
         url = "https://sthsroku.net/clubhub/Content/videos/basketball/shooting/shooting4.mp4" />
     </ContentNode>
     <ContentNode title = "Matches" >
-      <ContentNode 
+      <video_append_node 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/matches/matches1.jpg" 
         title = "Clip One" 
         url = "https://sthsroku.net/clubhub/Content/videos/basketball/matches/matches1.mov" />

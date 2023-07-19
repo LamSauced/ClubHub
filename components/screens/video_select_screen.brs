@@ -1,6 +1,6 @@
 sub init()
   m.video_row = m.top.findNode("video_row")
-  m.video_row.content = CreateObject("roSGNode", "BasketballSelectContent")
+  m.video_row.content = CreateObject("roSGNode", "BadmintonSelectContent")
   m.top.observefield("visible", "onVisibleChange")
 end sub
 
