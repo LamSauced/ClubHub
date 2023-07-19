@@ -2,144 +2,144 @@
 <component name = "BadmintonSelectContent" extends = "ContentNode" >
   <children >
     <ContentNode title = "Footwork" >
-      <video_append_node
+      <ContentNode
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/footwork/badmintonfootwork1.jpg" 
         title = "Rearcourt Footwork" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/footwork/badmintonfootwork1.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/footwork/badmintonfootwork2.jpg" 
         title = "Frontcourt Footwork" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/footwork/badmintonfootwork2.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/footwork/badmintonfootwork3.jpg" 
         title = "Faster Footwork" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/footwork/badmintonfootwork3.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/footwork/badmintonfootwork4.jpg" 
         title = "4 Corners Footwork" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/footwork/badmintonfootwork4.mp4" />
     </ContentNode>
     <ContentNode title = "RacketSkills" > 
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/racketskills/racketskills1.jpg" 
         title = "How to Clear" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/racketskills/Racketskills1.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/racketskills/racketskills2.jpg" 
         title = "How to Drop" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/racketskills/Racketskills2.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/racketskills/racketskills3.jpg" 
         title = "How to Smash" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/racketskills/Racketskills3.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/racketskills/racketskills4.jpg" 
         title = "How to Backhand" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/racketskills/Racketskills4.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/racketskills/racketskills5.jpg" 
         title = "How to Handle Rearcourt Pressure" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/racketskills/Racketskills5.mp4" />
     </ContentNode>
     <ContentNode title = "Strategy" >
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/strategy/strategy1.jpg" 
         title = "Advanced Singles Strategies" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/strategy/strategy1.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/strategy/strategy2.jpg" 
         title = "Tactical Advice for Singles" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/strategy/strategy2.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/strategy/strategy3.jpg" 
         title = "How to Tire Out Your Opponent" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/strategy/strategy3.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/strategy/strategy4.jpg" 
         title = "Serving Strategy for Doubles" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/strategy/strategy4.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/strategy/strategy5.jpg" 
         title = "How to Attack and Rotate in Doubles" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/strategy/strategy5.mp4" />
     </ContentNode>
     <ContentNode title = "V1 Boys Doubles" >
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/thumbnails/YBHSThumbnail.jpg" 
         title = "Boys Doubles V1 3/16" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/V1BoysDoubles/(March16)BDV1_YB-H.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/thumbnails/GHSThumbnail.jpg" 
         title = "Boys Doubles V1 3/22" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/V1BoysDoubles/(March22)BDV1_GHS-A.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/thumbnails/MPHSThumbnail.jpg" 
         title = "Boys Doubles V1 3/24"
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/V1BoysDoubles/(March24)BDV1_MTP-H.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/thumbnails/YBHSThumbnail.jpg" 
         title = "Boys Doubles V1 4/19" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/V1BoysDoubles/(April19)BDV1_YB-A.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/thumbnails/MPHSThumbnail.jpg" 
         title = "Boys Doubles V1 4/26" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/V1BoysDoubles/(April26)BDV1_MTP-H.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/thumbnails/YBHSThumbnail.jpg" 
         title = "Boys Doubles V1 5/4" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/V1BoysDoubles/(May4)BDV1_BVAL.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/thumbnails/YBHSThumbnail.jpg" 
         title = "Boys Doubles V1 5/5" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/V1BoysDoubles/(May5)BDV1_BVAL.mp4" />
     </ContentNode>
     <ContentNode title = "V3 Boys Doubles" >
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/thumbnails/YBHSThumbnail.jpg" 
         title = "Boys Doubles V3 3/15" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/V3BoysDoubles/(March15)BDV3_OGHS-A.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/thumbnails/GHSThumbnail.jpg" 
         title = "Boys Doubles V3 3/16"
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/V3BoysDoubles/(March16)BDV3_YB-H.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/thumbnails/MPHSThumbnail.jpg" 
         title = "Boys Doubles V3 3/22" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/V3BoysDoubles/(March22)BDV3_GHS-A.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/thumbnails/YBHSThumbnail.jpg" 
         title = "Boys Doubles V3 5/4 Game 1" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/V3BoysDoubles/(May4)BDV3_BVAL1.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/thumbnails/YBHSThumbnail.jpg" 
         title = "Boys Doubles V3 5/4 Game 2" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/V3BoysDoubles/(May4)BDV3_BVAL2.mp4" />
+    </ContentNode>
     <ContentNode title = "V2 Boys Singles" >
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/thumbnails/GHSThumbnail.jpg" 
         title = "Boys Singles V2 3/22" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/V2BoysSingles/(March22)BSV2_GHS-A.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/thumbnails/MPHSThumbnail.jpg" 
         title = "Boys Singles V2 3/24" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/V2BoysSingles/(March24)BSV2_MTP-A.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/thumbnails/YBHSThumbnail.jpg" 
         title = "Boys Singles V2 4/19" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/V2BoysSingles/(April19)BSV2_YB-A.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/thumbnails/MPHSThumbnail.jpg" 
         title = "Boys Singles V2 4/26" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/V2BoysSingles/(April26)BSV2_MTP-H.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/thumbnails/OHSThumbnail.jpg" 
         title = "Boys Singles V2 4/28 Part 1" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/V2BoysSingles/(April28)BSV2_OHS1-A.mp4" />
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/thumbnails/OHSThumbnail.jpg" 
         title = "Boys Singles V2 4/28 Part 2" 
         url = "https://sthsroku.net/clubhub/Content/videos/badminton/V2BoysSingles/(April28)BSV2_OHS2-A.mp4" />
-    </ContentNode>
     </ContentNode>
   </children>
 </component>

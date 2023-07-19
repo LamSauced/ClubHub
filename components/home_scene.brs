@@ -105,18 +105,7 @@ function onKeyEvent(key, press) as Boolean
 			m.video_select_screen.visible=false
 			m.club_select_screen.visible=true
 			return true
-		else if m.videoplayer.visible
-			closeVideo()
-			return true
 		end if
-    else if key = "left" and press
-        if m.splash_screen.visible
-            m.splash_screen.visible = false
-            m.club_select_screen.visible = true
-            m.club_select_screen.setFocus(true)
-			m.videoplayer.control = "stop"
-            return true
-        end if
 	end if
   return false
 end function

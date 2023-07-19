@@ -5,6 +5,13 @@
     <field id="video_selected" type="assocarray" alias="video_row.rowItemSelected" onChange="onItemSelect" />
   </interface>
   <children >
+    <Poster
+      translation="[0, 0]"
+      width="1920"
+      height="1080"
+      uri="http://sthsroku.net/clubhub/Content/images/backgroundmain.png"
+      id="background"
+      visible = "true" />
     <RowList 
       id = "video_row" 
       translation = "[ 130, 80 ]" 
@@ -17,14 +24,12 @@
       drawFocusFeedback = "true" 
       vertFocusAnimationStyle = "fixedFocusWrap" 
       rowFocusAnimationStyle = "fixedFocusWrap" />
-   <Video
+    <Video
         id="selected_video"
         visible="false"
         translation="[0,0]"
         width="1920"
         height="1080"
-        enableUI = "false"
-  />
+        enableUI = "false" />
   </children>
-  
 </component>
