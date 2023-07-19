@@ -2,144 +2,175 @@
 <component name = "VideoSelectContent" extends = "ContentNode" >
   <children >
     <ContentNode title = "Footwork" >
-      <video_append_node
+      <ContentNode
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/footwork/badmintonfootwork1.jpg" 
         title = "Rearcourt Footwork" 
-        url = "https://sthsroku.net/clubhub/Content/images/badminton/footwork/badmintonfootwork1.jpg" />
-      <video_append_node 
+        url = "https://sthsroku.net/clubhub/Content/images/badminton/footwork/badmintonfootwork2.jpg" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/footwork/badmintonfootwork2.jpg" 
         title = "Frontcourt Footwork" 
-        url = "https://sthsroku.net/clubhub/Content/images/badminton/footwork/badmintonfootwork2.jpg" />
-      <video_append_node 
+        url = "https://sthsroku.net/clubhub/Content/images/badminton/footwork/badmintonfootwork2.jpg" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/footwork/badmintonfootwork3.jpg" 
         title = "Faster Footwork" 
-        url = "https://sthsroku.net/clubhub/Content/images/badminton/footwork/badmintonfootwork3.jpg" />
-      <video_append_node 
+        url = "https://sthsroku.net/clubhub/Content/images/badminton/footwork/badmintonfootwork3.jpg" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/footwork/badmintonfootwork4.jpg" 
         title = "4 Corners Footwork" 
-        url = "https://sthsroku.net/clubhub/Content/images/badminton/footwork/badmintonfootwork4.jpg" />
+        url = "https://sthsroku.net/clubhub/Content/images/badminton/footwork/badmintonfootwork4.jpg" 
+        streamFormat = "mp4" />
     </ContentNode>
     <ContentNode title = "RacketSkills" >
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/backgrounds/badmintonmain.jpg" 
         title = "How to Clear" 
-        url = "" />
-      <video_append_node 
+        url = "the voices" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/backgrounds/basketballmain.png" 
         title = "How to Drop" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/backgrounds/soccermain.png" 
         title = "How to Smash" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/trackandfield/backgrounds/trackmain.png" 
         title = "How to Backhand" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/volleyball/backgrounds/volleyballmain.png" 
         title = "How to Handle Rearcourt Pressure" 
-        url = "" />
+        url = "" 
+        streamFormat = "mp4" />
     </ContentNode>
     <ContentNode title = "Strategy" >
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/backgrounds/badmintonmain.jpg" 
         title = "Advanced Singles Strategies" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/backgrounds/basketballmain.png" 
         title = "Tactical Advice for Singles" 
-        url = "" />
-
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/backgrounds/soccermain.png" 
         title = "How to Tire Out Your Opponent" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/trackandfield/backgrounds/trackmain.png" 
         title = "Serving Strategy for Doubles" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/volleyball/backgrounds/volleyballmain.png" 
         title = "How to Attack and Rotate in Doubles" 
-        url = "" />
+        url = "" 
+        streamFormat = "mp4" />
     </ContentNode>
     <ContentNode title = "V1 Boys Doubles" >
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/backgrounds/badmintonmain.jpg" 
         title = "Boys Doubles V1 3/16" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/backgrounds/basketballmain.png" 
         title = "Boys Doubles V1 3/22" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/backgrounds/soccermain.png" 
         title = "Boys Doubles V1 3/24"
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/trackandfield/backgrounds/trackmain.png" 
         title = "Boys Doubles V1 4/19" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/volleyball/backgrounds/volleyballmain.png" 
         title = "Boys Doubles V1 4/26" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/waterpolo/backgrounds/waterpolomain.png" 
         title = "Boys Doubles V1 5/4" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/waterpolo/backgrounds/waterpolomain.png" 
         title = "Boys Doubles V1 5/5" 
-        url = "" />
+        url = "" 
+        streamFormat = "mp4" />
     </ContentNode>
     <ContentNode title = "V3 Boys Doubles" >
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/backgrounds/badmintonmain.jpg" 
         title = "Boys Doubles V3 3/15" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/backgrounds/basketballmain.png" 
         title = "Boys Doubles V3 3/16"
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/backgrounds/soccermain.png" 
         title = "Boys Doubles V3 3/22" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/trackandfield/backgrounds/trackmain.png" 
         title = "Boys Doubles V3 5/4 Game 1" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/volleyball/backgrounds/volleyballmain.png" 
         title = "Boys Doubles V3 5/4 Game 2" 
-        url = "" />
+        url = "" 
+        streamFormat = "mp4" />
     <ContentNode title = "V2 Boys Singles" >
-      <video_append_node 
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/backgrounds/badmintonmain.jpg" 
         title = "Boys Singles V2 3/22" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/backgrounds/basketballmain.png" 
         title = "Boys Singles V2 3/24" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/backgrounds/soccermain.png" 
         title = "Boys Singles V2 4/19" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/trackandfield/backgrounds/trackmain.png" 
         title = "Boys Singles V2 4/26" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/volleyball/backgrounds/volleyballmain.png" 
         title = "Boys Singles V2 4/28 Part 1" 
-        url = "" />
-      <video_append_node 
+        url = "" 
+        streamFormat = "mp4" />
+      <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/waterpolo/backgrounds/waterpolomain.png" 
         title = "Boys Singles V2 4/28 Part 2" 
-        url = "" />
+        url = "" 
+        streamFormat = "mp4" />
     </ContentNode>
     </ContentNode>
   </children>

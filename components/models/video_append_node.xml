@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <component name="video_append_node" extends="ContentNode">
 	<interface>
-		<field id="url" type="string" />
+		<field id="url" type="uri" />
+		<field id="streamFormat" type="string" />
 	</interface>
 </component>
