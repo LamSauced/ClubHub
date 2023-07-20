@@ -16,7 +16,7 @@ sub main()
 	? "UI Resolution: ", device_info.getUIResolution()
 	? "Video Mode: ", device_info.getVideoMode()
 	? "IP Address: ",device_info.getExternalIp()
-	? "GitHub Repository: https://github.com/thomasdcung/roku-app"
+	? "GitHub Repository: https://github.com/LamSauced/ClubHubA"
 
 	m.port = createObject("roMessagePort")
 	screen = createObject("roSGScreen")
