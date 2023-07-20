@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="splash_screen" extends="Group">
+  <interface>
+    <field id="splash_finished" type="string" alwaysnotify = "true" alias = "splash_video.state"  />
+  </interface>
+  <script type="text/brightscript" uri="pkg:/components/screens/splash_screen.brs" />
+  <children>
+   <Video
+        id="splash_video"
+        visible="false"
+        translation="[0,0]"
+        width="1920"
+        height="1080"
+        enableUI = "false"
+  />
+  </children>
+</component>

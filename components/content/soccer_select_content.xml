@@ -1,0 +1,91 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<component name = "SoccerSelectContent" extends = "ContentNode" >
+  <children >
+    <ContentNode title = "Dribbling" >
+      <ContentNode
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/dribbling/dribbling1.jpg" 
+        title = "5 Dribbling Drills" 
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/dribbling/dribbling1.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/dribbling/dribbling2.jpg" 
+        title = "Dribbling Basics" 
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/dribbling/dribbling2.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/dribbling/dribbling3.jpg" 
+        title = "Bypassing Defenders" 
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/dribbling/dribbling3.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/dribbling/dribbling4.jpg" 
+        title = "Speed Dribbling" 
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/dribbling/dribbling4.mp4" />
+    </ContentNode>
+    <ContentNode title = "Scoring" > 
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/scoring/scoring1.jpg" 
+        title = "Easy Scoring Tips" 
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/scoring/scoring1.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/scoring/scoring2.jpg" 
+        title = "Score More Goals" 
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/scoring/scoring2.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/scoring/scoring3.jpg" 
+        title = "Shooting Drills" 
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/scoring/scoring3.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/scoring/scoring4.jpg" 
+        title = "Finishing Drills" 
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/scoring/scoring4.mp4" />
+    </ContentNode>
+    <ContentNode title = "Defending" >
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/defending/defending1.jpg" 
+        title = "5 Defending Secrest" 
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/defending/defending1.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/defending/defending2.jpg" 
+        title = "Attacker's Nightmare" 
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/defending/defending2.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/defending/defending3.jpg" 
+        title = "Defend Fast Players" 
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/defending/defending3.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/defending/defending4.jpg" 
+        title = "Defend Skills" 
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/defending/defending4.mp4" />
+    </ContentNode>
+    <ContentNode title = "Goalkeeping" >
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/goalkeeping/goalkeeping1.jpg" 
+        title = "Improve Goalkeeping" 
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/goalkeeping/goalkeeping1.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/goalkeeping/goalkeeping2.jpg" 
+        title = "How to Dive" 
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/goalkeeping/goalkeeping2.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/goalkeeping/goalkeeping3.jpg" 
+        title = "How to Position"
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/goalkeeping/goalkeeping3.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/goalkeeping/goalkeeping4.jpg" 
+        title = "Goalkeeping IQ" 
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/goalkeeping/goalkeeping4.mp4" />
+    </ContentNode>
+    <ContentNode title = "Games" >
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/games/games1.jpg" 
+        title = "Clip One" 
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/games/games1.MOV" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/games/games2.jpg" 
+        title = "Clip Two"
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/games/games2.MOV" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/games/games3.jpg" 
+        title = "Clip Three" 
+        url = "https://sthsroku.net/clubhub/Content/videos/soccer/games/games3.MOV" />
+    </ContentNode>
+  </children>
+</component>

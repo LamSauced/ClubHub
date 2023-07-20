@@ -1,0 +1,57 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<component name = "WaterpoloSelectContent" extends = "ContentNode" >
+  <children >
+    <ContentNode title = "Fundamentals" >
+      <ContentNode
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/waterpolo/fundamentals/fundamentals1.jpg" 
+        title = "Incrase Shot Power" 
+        url = "https://sthsroku.net/clubhub/Content/videos/waterpolo/fundamentals/fundamentals1.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/waterpolo/fundamentals/fundamentals2.jpg" 
+        title = "Catch and Shoot" 
+        url = "https://sthsroku.net/clubhub/Content/videos/waterpolo/fundamentals/fundamentals2.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/waterpolo/fundamentals/fundamentals3.jpg" 
+        title = "Eggbeaters" 
+        url = "https://sthsroku.net/clubhub/Content/videos/waterpolo/fundamentals/fundamentals3.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/waterpolo/fundamentals/fundamentals4.jpg" 
+        title = "Dribbling" 
+        url = "https://sthsroku.net/clubhub/Content/videos/waterpolo/fundamentals/fundamentals4.mp4" />
+    </ContentNode>
+    <ContentNode title = "Tactics" > 
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/waterpolo/tactics/tactics1.jpg" 
+        title = "Water Polo Basics" 
+        url = "https://sthsroku.net/clubhub/Content/videos/waterpolo/tactics/tactics1.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/waterpolo/tactics/tactics2.jpg" 
+        title = "Team Driving" 
+        url = "https://sthsroku.net/clubhub/Content/videos/waterpolo/tactics/tactics2.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/waterpolo/tactics/tactics3.jpg" 
+        title = "3-3 Offense" 
+        url = "https://sthsroku.net/clubhub/Content/videos/waterpolo/tactics/tactics3.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/waterpolo/tactics/tactics4.jpg" 
+        title = "Zone Defense" 
+        url = "https://sthsroku.net/clubhub/Content/videos/waterpolo/tactics/tactics4.mp4" />
+    </ContentNode>
+    <ContentNode title = "Boys" >
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/waterpolo/boys/boys1.jpg" 
+        title = "Clip One" 
+        url = "https://sthsroku.net/clubhub/Content/videos/waterpolo/boys/boys1.mp4" />
+    </ContentNode>
+    <ContentNode title = "Girls" >
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/waterpolo/girls/girls1.jpg" 
+        title = "Clip One" 
+        url = "https://sthsroku.net/clubhub/Content/videos/waterpolo/girls/girls1.mp4" />
+      <ContentNode 
+        HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/waterpolo/girls/girls2.jpg" 
+        title = "Clip Two" 
+        url = "https://sthsroku.net/clubhub/Content/videos/waterpolo/girls/girls2.mp4" />
+    </ContentNode>
+  </children>
+</component>
