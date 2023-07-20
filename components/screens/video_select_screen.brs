@@ -13,7 +13,6 @@ end sub
 
 sub onItemSelect()
   video_content = CreateObject("roSGNode", "ContentNode")
-  ? "it made it here"
   video_content.url = m.video_row.content.getChild(m.video_row.rowItemFocused[0]).getChild(m.video_row.rowItemFocused[1]).url
   video_content.streamFormat = "mp4"
   m.selected_video.content = video_content

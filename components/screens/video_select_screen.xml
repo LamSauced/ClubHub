@@ -3,6 +3,7 @@
   <script type="text/brightscript" uri="pkg:/components/screens/video_select_screen.brs" />
   <interface>
     <field id="component_name" type = "string" />
+    <field id = "video_selected" type ="int" alias = "video_row.rowItemSelected" onChange = "onItemSelect" />
   </interface>
   <children >
     <Poster
