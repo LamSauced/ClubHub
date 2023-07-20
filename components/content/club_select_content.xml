@@ -4,22 +4,28 @@
     <ContentNode title = "" >
       <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/badminton/backgrounds/badmintonmain.jpg" 
-        title = "Badminton" />
+        title = "Badminton" 
+        description = "BadmintonSelectContent" />
       <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/basketball/backgrounds/basketballmain.jpg" 
-        title = "Basketball" />
+        title = "Basketball" 
+        description = "BasketballSelectContent" />
       <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/soccer/backgrounds/soccermain.jpg" 
-        title = "Soccer" />
+        title = "Soccer"
+        description = "SoccerSelectContent" />
       <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/trackandfield/backgrounds/trackmain.jpg" 
-        title = "Track and Field" />
+        title = "Track and Field"
+        description = "TrackSelectContent" />
       <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/volleyball/backgrounds/volleyballmain.jpg" 
-        title = "Volleyball" />
+        title = "Volleyball" 
+        description = "VolleyballSelectContent" />
       <ContentNode 
         HDPosterUrl = "https://sthsroku.net/clubhub/Content/images/waterpolo/backgrounds/waterpolomain.jpg" 
-        title = "Water Polo" />
+        title = "Water Polo" 
+        description = "WaterPoloSelectContent" />
     </ContentNode>
   </children>
 </component>

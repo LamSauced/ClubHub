@@ -2,7 +2,8 @@
 <component name = "club_select_screen" extends = "Group" initialFocus = "club_list" >
   <script type="text/brightscript" uri="pkg:/components/screens/club_select_screen.brs" />
   <interface>
-    <field id="club_selected" type="assocarray" alias="club_row.itemSelected" />
+    <field id="club_selected" type="assocarray" alias="club_row.itemSelected" onChange="onItemSelect" />
+    <field id="selected_club_content" type="string" />
   </interface>
   <children >
     <RowList 

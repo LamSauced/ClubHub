@@ -1,22 +1,23 @@
 sub init()
   m.video_row = m.top.findNode("video_row")
-  m.video_row.content = CreateObject("roSGNode", "VolleyballSelectContent")
   m.top.observefield("visible", "onVisibleChange")
   m.selected_video = m.top.findNode("selected_video")
 end sub
 
 sub onVisibleChange()
   if m.top.visible = true then
+    m.video_row.content = CreateObject("roSGNode", m.top.component_name)
     m.video_row.setFocus(true)
   end if
 end sub
+
+'All the code below needs to be centralized in home_scene.brs
 
 sub onItemSelect()
   video_content = CreateObject("roSGNode", "ContentNode")
   ? "it made it here"
   video_content.url = m.video_row.content.getChild(m.video_row.rowItemFocused[0]).getChild(m.video_row.rowItemFocused[1]).url
   video_content.streamFormat = "mp4"
-  ? "url", video_content.url
   m.selected_video.content = video_content
 	m.selected_video.control ="prebuffer"
 	m.selected_video.visible = true

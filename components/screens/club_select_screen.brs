@@ -9,3 +9,8 @@ sub onVisibleChange()
     m.club_row.setFocus(true)
   end if
 end sub
+
+sub onItemSelect()
+  m.top.selected_club_content = m.club_row.content.getChild(0).getChild(m.club_row.rowItemFocused[1]).description
+  ? "ref name", m.top.selected_club_content
+end sub

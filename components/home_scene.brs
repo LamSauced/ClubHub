@@ -46,6 +46,11 @@ end sub
 'end sub
 
 sub onClubSelected(obj)
+	'm.load_xml = createobject("rosgnode", "load_xml")
+	'm.load_xml.load_url = m.club_select_screen.getField("selected_club_content")
+	'm.load_xml.control = "RUN"
+	'm.video_select_screen.content = m.load_xml.content
+	m.video_select_screen.component_name = m.club_select_screen.getField("selected_club_content")
 	m.club_select_screen.visible=false
 	m.video_select_screen.visible=true
 end sub

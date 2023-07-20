@@ -1,9 +1,6 @@
 sub init()
-	' splash_bool = CreateObject("roSGNode", "ContentNode")
-	' m.timer = m.top.findNode("splash_timer")
 	m.splash_video = m.top.findNode("splash_video")
 	playSplashAnimation()
-	' m.timer.ObserveField("fire", "onTimerStateChange")
 end sub
 
 sub playSplashAnimation()
@@ -15,12 +12,5 @@ sub playSplashAnimation()
 	m.splash_video.visible = true
 	m.splash_video.setFocus(true)
 	m.splash_video.control = "play"
-	' m.timer.control = "start"
+
 end sub
-
-' shit down there is probably useless
-' sub onTimerStateChange()
-'	? "timer finished"
-' 	splash_finished = "true"
-' end sub
-
