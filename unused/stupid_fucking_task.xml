@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<component name = "stupid_fucking_task" extends = "task" >
-  <interface>
-    <!-- input fields -->
-    <field id = "thing" type = "node" />
-  </interface>
-  <script type="text/brightscript" uri="pkg:/components/tasks/stupid_fucking_task.brs"/>
-</component>

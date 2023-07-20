@@ -2,8 +2,6 @@
 <component name = "video_select_screen" extends = "Group" initialFocus = "video_list" >
   <script type="text/brightscript" uri="pkg:/components/screens/video_select_screen.brs" />
   <interface>
-    <!-- not needed rn, will be used in future iterations <field id="video_selected" type="assocarray" alias="video_row.rowItemSelected" onChange="onItemSelect" /> 
-    <field id="video_content" type="node" /> -->
     <field id="component_name" type = "string" />
   </interface>
   <children >

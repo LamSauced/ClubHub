@@ -1,11 +1,9 @@
 sub main()
-	' Print information from Roku manifest
 	app_info = createObject("roAppInfo")
 	? "App Title: ", app_info.getTitle()
 	? "App Version: ", app_info.getVersion()
 	? "Channel ID: ", app_info.getID()
 	? "isDev: ", app_info.isDev()
-	' Print information from device
 	? "- - - - - - - - - - - - - - - - "
 	device_info = createObject("roDeviceInfo")
 	? "Model: ", device_info.getModel()
@@ -18,18 +16,14 @@ sub main()
 	? "UI Resolution: ", device_info.getUIResolution()
 	? "Video Mode: ", device_info.getVideoMode()
 	? "IP Address: ",device_info.getExternalIp()
+	? "GitHub Repository: https://github.com/thomasdcung/roku-app"
 
 	m.port = createObject("roMessagePort")
 	screen = createObject("roSGScreen")
 	screen.setMessagePort(m.port)
 	scene = screen.createScene("home_scene")
 	screen.show()
-	'scene = screen.createScene("home_scene")
-	'screen.Show()
 	' vscode_rdb_on_device_component_entry
-	' don't delete the above, it's necessary for sideloading - lam
-	' this loop is necessary to keep the application open
-	' otherwise the channel will exit when it reaches the end of main()
 	while(true)
 		msg = wait(0, m.port)
 		msgType = type(msg)

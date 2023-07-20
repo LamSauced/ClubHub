@@ -11,8 +11,6 @@ sub onVisibleChange()
   end if
 end sub
 
-'All the code below needs to be centralized in home_scene.brs
-
 sub onItemSelect()
   video_content = CreateObject("roSGNode", "ContentNode")
   ? "it made it here"
